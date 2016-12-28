@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Footer from '../public/footer.jsx';
-import Header from '../public/Header.jsx';
-import IndexList from '../indexList.jsx';
+import Footer from '../public/footer';
+import Header from '../public/Header';
+import IndexList from '../indexList';
 
 const Shop=React.createClass({
       getInitialState:function(){
@@ -23,6 +23,5 @@ const Shop=React.createClass({
           )
       }
 });
-
 
 export default Shop;

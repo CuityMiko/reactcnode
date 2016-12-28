@@ -3,10 +3,10 @@ import {Router,Route,hashHistory, Link} from 'react-router';
 import {createHistory,useBasename} from 'history';
 
 
-import Index from './component/home/index.jsx';
-import About from './component/about/index.jsx';
-import My from './component/my/index.jsx';
-import Shop from './component/shop/index.jsx';
+import Index from './component/home/index';
+import About from './component/about/index';
+import My from './component/my/index';
+import Shop from './component/shop/index';
 
 require('./style/comm.css');
 /**const history = useBasename(createHistory)({

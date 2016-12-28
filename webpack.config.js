@@ -15,7 +15,9 @@ var config = {
      inline: true,
      port: 88
   },
-
+  resolve: {
+         extensions: ['', '.js', '.jsx'], //后缀名自动补全
+     },
   module: {
      loaders: [ {
         test: /\.jsx?$/,
@@ -47,6 +49,11 @@ var config = {
          test: /\.(png|jpg|gif)$/,
          loader: 'url-loader?limit=8192&name=./img/[hash].[ext]'
       },
+      {
+                test: /\.jsx$/,
+                exclude: /^node_modules$/,
+                loaders: ['jsx', 'babel?presets[]=es2015,presets[]=react']
+            }
    ]
  },plugins: [
    new webpack.HotModuleReplacementPlugin(),//热加载

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Footer from '../public/footer.jsx';
-import Header from '../public/Header.jsx';
-import IndexList from '../indexList.jsx';
+import Footer from '../public/footer';
+import Header from '../public/Header';
+import IndexList from '../indexList';
 
 const Index=React.createClass({
 getInitialState:function(){
