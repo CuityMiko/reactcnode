@@ -15,9 +15,8 @@
    1.npm install
 ------------------
    2.在浏览器中输入http://localhost:88/page
------------------------------------------
 #四.项目页面展示：
-	![](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/home.gif)
-	![](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/about.gif)
-	![](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/shop.gif)
-	![](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/user.gif)
+	![home](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/home.gif)
+	![about](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/about.gif)
+	![shop](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/shop.gif)
+	![user](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/user.gif)
