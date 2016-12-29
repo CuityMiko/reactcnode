@@ -57,7 +57,7 @@ var config = {
    ]
  },plugins: [
    new webpack.HotModuleReplacementPlugin(),//热加载
-   new ExtractTextPlugin('page/[name].css'), //单独使用link标签加载css并设置路径，相对于output配置中的publickPath
+   new ExtractTextPlugin('style/[name].css'), //单独使用link标签加载css并设置路径，相对于output配置中的publickPath
  ]
 
 }
