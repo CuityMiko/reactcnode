@@ -17,12 +17,7 @@
    2.在浏览器中输入http://localhost:88/page
 -----------------------------------------
 #四.项目页面展示：
-	1.home
 	![](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/home.gif)
-	2.about
 	![](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/about.gif)
-	3.shop
 	![](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/shop.gif)
-	4.user
 	![](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/user.gif)
-	![github](http://github.com/unicorn.png "github")  
