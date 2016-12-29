@@ -19,10 +19,10 @@
 四.项目页面展示：
 =========================
 	1.home
-	![HOME](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/home.gif)
+	![](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/home.gif)
 	2.about
-	![about](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/about.gif)
+	![](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/about.gif)
 	3.shop
-	![shop](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/shop.gif)
+	![](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/shop.gif)
 	4.user
-	![user](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/user.gif)
+	![](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/user.gif)
