@@ -19,10 +19,10 @@
 四.项目页面展示：
 =========================
 	1.home
-	![首页图片](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/home.png)<br/>
+	![首页图片](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/home.png)
 	2.about
-	![关于我们页面](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/about.png)<br/>
+	![关于我们页面](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/about.png)
 	3.shop
-	![产品列表页面](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/shop.png)<br/>
+	![产品列表页面](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/shop.png)
 	4.user
-	![用户中心页面](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/user.png)<br/>
+	![用户中心页面](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/user.png)
