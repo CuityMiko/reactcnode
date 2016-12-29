@@ -16,8 +16,7 @@
 ------------------
    2.在浏览器中输入http://localhost:88/page
 -----------------------------------------
-四.项目页面展示：
-=========================
+#四.项目页面展示：
 	1.home
 	![](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/home.gif)
 	2.about
