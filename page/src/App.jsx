@@ -4,19 +4,20 @@ import {createHistory,useBasename} from 'history';
 
 
 import Index from './component/home/index';
+import Ente from './component/home/app';
 import About from './component/about/index';
 import My from './component/my/index';
 import Content from './component/my/my';
 import Shop from './component/shop/index';
 import Registger from './component/register/index';
 import Login from './component/login/index';
+import Type from './component/type/index';
 
 require('./style/comm.css');
 /**const history = useBasename(createHistory)({
   basename: '/reactcnode'
 });**/
 {/**  {this.props.children}   非常重要**/}
-{/** 思考：首页也有其他分路由，怎么配**/ }
 
 
 
@@ -24,10 +25,11 @@ class App extends React.Component{
     render(){
         return(
             <Router history={hashHistory}>
-              <Route path="/" component={Index}>
+              <Route path="/" component={Ente}>
                 <IndexRoute component={Index} />
+                <Route path="/home/:typeName" component={Type}/>
               </Route>
-                <Route path="/about" component={About} />
+              <Route path="/about" component={About} />
                 <Route path="/shop" component={Shop} />
                 <Route path="/user" component={Content}>
                     <IndexRoute component={My}/>

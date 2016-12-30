@@ -29,6 +29,9 @@ const Registger=React.createClass({
       return(
         <div>
         <header>
+            <div className="ui-header-left">
+                <a href="javascript:history.go(-1);">返回</a>
+            </div>
             <h3>注册</h3>
             <span className="ui-header-right">
                   <Link to="/user/login"><span className="ui-login-icon">登录</span></Link>

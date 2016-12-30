@@ -23,13 +23,13 @@ const My=React.createClass({
             <div className="user-list-item">
               <ul>
                 <li>
-                    <a href="#">关注(20)</a>
+                    <Link to="/type/关注">关注(20)</Link>
                 </li>
                 <li>
-                    <a href="#">收藏(20)</a>
+                    <Link to="/type/收藏">收藏(20)</Link>
                 </li>
                 <li>
-                    <a href="#">粉丝(20)</a>
+                    <Link to="/type/粉丝">粉丝((20)</Link>
                 </li>
               </ul>
             </div>
