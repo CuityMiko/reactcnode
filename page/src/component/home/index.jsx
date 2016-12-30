@@ -14,7 +14,7 @@ getInitialState:function(){
     render(){
         return(
         <div>
-              <Header headerTitle={this.state.headerTitle} />
+              <Header  headerTitle={this.state.headerTitle} />
               <div className="shop-item">
                   <ul>
                       <li className="item-class">

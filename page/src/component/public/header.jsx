@@ -5,6 +5,7 @@ const Header=React.createClass({
         return(
             <header>
                 <h3>{this.props.headerTitle}</h3>
+                <span className="ui-header-right"  dangerouslySetInnerHTML={{__html:this.props.headerR}}></span>
             </header>
         );
     }

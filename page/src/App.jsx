@@ -1,12 +1,15 @@
 import React from 'react';
-import {Router,Route,hashHistory, Link} from 'react-router';
+import { Router, Route, IndexRoute, Link,hashHistory,IndexLink } from 'react-router'
 import {createHistory,useBasename} from 'history';
 
 
 import Index from './component/home/index';
 import About from './component/about/index';
 import My from './component/my/index';
+import Content from './component/my/my';
 import Shop from './component/shop/index';
+import Registger from './component/register/index';
+import Login from './component/login/index';
 
 require('./style/comm.css');
 /**const history = useBasename(createHistory)({
@@ -21,10 +24,16 @@ class App extends React.Component{
     render(){
         return(
             <Router history={hashHistory}>
-                <Route path="/" component={Index} />
+              <Route path="/" component={Index}>
+                <IndexRoute component={Index} />
+              </Route>
                 <Route path="/about" component={About} />
                 <Route path="/shop" component={Shop} />
-                <Route path="/user" component={My} />
+                <Route path="/user" component={Content}>
+                    <IndexRoute component={My}/>
+                    <Route  path="register" component={Registger} />
+                    <Route  path="login" component={Login} />
+                </Route>
             </Router>
         )
     }

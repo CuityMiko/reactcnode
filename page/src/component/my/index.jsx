@@ -1,4 +1,5 @@
 import React from 'react';
+import { Router, Route, IndexRoute, Link, IndexLink } from 'react-router'
 
 import Footer from '../public/footer';
 import Header from '../public/Header';
@@ -6,13 +7,18 @@ import Header from '../public/Header';
 const My=React.createClass({
       getInitialState:function(){
             return {
-                headerTitle:'用户中心，安全可靠'
+                headerTitle:'用户中心，安全可靠',
             }
       },
       render(){
           return(
           <div>
-          <Header headerTitle={this.state.headerTitle} />
+          <header>
+              <h3>用户中心</h3>
+              <span className="ui-header-right">
+                    <Link to="/user/register"><span className="ui-login-icon">注册</span></Link>
+              </span>
+          </header>
             <div className="list-cts">
             <div className="user-list-item">
               <ul>

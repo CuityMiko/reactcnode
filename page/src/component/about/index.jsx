@@ -7,13 +7,14 @@ import Header from '../public/Header';
 const About=React.createClass({
       getInitialState:function(){
             return {
-                headerTitle:'关于我们'
+                headerTitle:'关于我们',
             }
       },
       render(){
           return(
           <div>
-          <Header headerTitle={this.state.headerTitle} />
+          <Header
+          headerTitle={this.state.headerTitle}/>
           <main>
               <div className="content">
                 <div className="ui-article-title">

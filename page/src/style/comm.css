@@ -20,6 +20,9 @@ a{
   color:#666;
   text-decoration:none;
 }
+button,input{
+  outline:none;
+}
 @font-face {
     font-family: 'FontAwesome';
     src: url('../../fonts/fontawesome-webfont.eot?v=4.4.0');
@@ -76,14 +79,29 @@ a{
 .ui-footer .ft-user:before {
     content: '\f007';
 }
-
+/*header*/
+.ui-header-right{
+    position:absolute;
+    right:1rem;
+    top:0rem;
+}
+.ui-header-right span{
+  width:45px;
+  height:45px;
+  display:block;
+}
+.ui-header-right .ui-login-icon{
+      background:#009688;
+      color:#fff;
+}
 header {
-    background: green;
+    background:#009688;
     position: relative;
     top: 0px;
     left: 0px;
     height: 45px;
     line-height: 45px;
+    position:relative;
 }
 
 header h3 {
@@ -282,4 +300,25 @@ position: relative;
 }
 .user-list-item ul li:last-child{
   border-right:none;
+}
+
+/*register*/
+.ui-from-label{
+  margin:1rem 0;
+  padding-left:1rem;
+  border:1px solid #ddd;
+  border-radius:.5rem;
+}
+.ui-from-label input{
+  width:100%;
+  height:3rem;
+  border:0 none;
+  border-radius:0.4rem;
+}
+.ui-from-button button{
+  width:100%;
+  height:3rem;
+  border:0 none;
+  background:rgba(76, 175, 80, 0.84);
+  color:#fff;
 }

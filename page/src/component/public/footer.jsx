@@ -1,6 +1,6 @@
-import React from 'react'
-import { render } from 'react-dom'
-import { Router, Route, IndexRoute, Link, IndexLink } from 'react-router'
+import React from 'react';
+import { render } from 'react-dom';
+import { Router, Route, IndexRoute, Link, IndexLink } from 'react-router';
 
 const Footer=React.createClass({
     render:function(){
