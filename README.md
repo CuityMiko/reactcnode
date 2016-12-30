@@ -13,5 +13,7 @@
 ![about](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/about.gif)
 ![shop](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/shop.gif)
 ![user](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/user.gif)
+![register](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/register.gif)
+![login](https://github.com/tjlightfuturedreams/reactcnode/blob/master/imglist/login.gif)
 
 ####未来之光免费培训，[详情请加qq学习群](https://jq.qq.com/?_wv=1027&k=42y4Kav)
