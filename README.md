@@ -1,9 +1,9 @@
 # reactcnode
-#一.环境：
+#一.环境
 	1.git工具<br />
 	2.nodejs<br />
 	3.atom<br />
-#二.下载：
+#二.下载
     git clone  https://github.com/tjlightfuturedreams/reactcnode.git<br />
 #三.安装
    1.npm install<br />
