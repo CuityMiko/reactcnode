@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router, Route, IndexRoute, Link,hashHistory,IndexLink } from 'react-router'
+import { Router, Route, IndexRoute, Link,hashHistory,IndexLink } from 'react-router';
 import {createHistory,useBasename} from 'history';
 
 
@@ -12,6 +12,7 @@ import Shop from './component/shop/index';
 import Registger from './component/register/index';
 import Login from './component/login/index';
 import Type from './component/type/index';
+import Topic from './component/topic/index';
 
 require('./style/comm.css');
 /**const history = useBasename(createHistory)({
@@ -28,6 +29,7 @@ class App extends React.Component{
               <Route path="/" component={Ente}>
                 <IndexRoute component={Index} />
                 <Route path="/home/:typeName" component={Type}/>
+                <Route path="/topic/:id" component={Topic}/>
               </Route>
               <Route path="/about" component={About} />
                 <Route path="/shop" component={Shop} />

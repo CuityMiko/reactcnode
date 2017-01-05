@@ -6,12 +6,12 @@ import Header from '../public/Header';
 import IndexList from '../indexList';
 
 const Index=React.createClass({
-getInitialState:function(){
-      return {
-          headerTitle:'未来之光，专注教育事业《免费培训》',
-          listTitle:'最新资讯'
-      }
-},
+    getInitialState:function(){
+          return {
+              headerTitle:'未来之光，专注教育事业《免费培训》',
+              listTitle:'最新文章'
+          }
+    },
     render(){
       // console.log(this.props.params);
       const {typeName} = this.props.params
